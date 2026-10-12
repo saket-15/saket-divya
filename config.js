@@ -10,7 +10,7 @@ window.INVITATION = {
   },
   "event": {
     "date": "2026-11-24",
-    "time": "19:00",
+    "time": "18:00",
     "endTime": "06:00",
     "utcOffset": "+05:30",
     "heroDateText": "",
@@ -47,11 +47,11 @@ window.INVITATION = {
           },
           {
             "time": "Haldi and Suwal Patai",
-            "title": "11 AM"
+            "title": "10 AM"
           },
           {
             "time": "Mehandi",
-            "title": "7 PM"
+            "title": "6 PM"
           }
         ]
       },
@@ -61,7 +61,7 @@ window.INVITATION = {
         "events": [
           {
             "time": "Barat Prasthan",
-            "title": "7 PM"
+            "title": "6 PM"
           },
           {
             "time": "Panigrahan Sanskar",
@@ -79,11 +79,11 @@ window.INVITATION = {
           },
           {
             "time": "Mahila Sangeet",
-            "title": "1 PM"
+            "title": "12 PM"
           },
           {
-            "time": "Pratibhoj",
-            "title": "4 PM"
+            "time": "Pritibhoj",
+            "title": "2 PM onwards"
           }
         ]
       }
@@ -98,7 +98,8 @@ window.INVITATION = {
     "showMap": true,
     "image": "",
     "calendarButton": "Add to Calendar",
-    "directionsButton": "Get Directions"
+    "directionsButton": "Get Directions",
+    "note": "Ganesh Pooja, Suwal Patai, Haldi and Mehandi will be held at our home in Mehragaon. All other functions are at the venue above."
   },
   "dressCode": {
     "show": false
