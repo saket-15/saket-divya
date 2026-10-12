@@ -213,6 +213,9 @@
       (name ? '<div class="venue-name rv">' + esc(name) + '</div>' : '') +
       '<div class="venue-date rv">' + esc(get('event.fullDateText', ev.full)) + '</div>' +
       (addr ? '<p class="venue-addr rv">' + txt(addr) + '</p>' : '') +
+      // optional extra info, e.g. some functions held at home and others at the main venue
+      (get('location.note') ? '<div class="venue-note rv"><span class="venue-note-title">' + txt(get('location.noteTitle', 'Please note')) +
+        '</span><p>' + txt(get('location.note')) + '</p></div>' : '') +
       '<div class="venue-art rv">' + (img ? '<img src="' + esc(img) + '" alt="' + esc(name) + '" loading="lazy">' : ART.venue()) + '</div>' +
       (showMap ? '<div class="map-card rv"><iframe title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=' +
         encodeURIComponent(q) + '&z=15&output=embed"></iframe><a class="map-open" href="' + esc(link) + '" target="_blank" rel="noopener">Open in Maps &#8599;</a></div>' : '') +
